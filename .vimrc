@@ -1,8 +1,5 @@
 set ruler
 
-" Indent next line to same as previous. Still stupid
-set smartindent
-
 " Highlight search matches
 set hlsearch
 
