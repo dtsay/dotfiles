@@ -10,8 +10,6 @@ set incsearch
 set ignorecase
 set smartcase
 
-set textwidth=80
-
 " Vim syntax highlighting
 syntax on
 colorscheme ir_black
@@ -38,3 +36,6 @@ let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_regexp = 0
 let g:ctrlp_custom_ignore = {'file': '\.pyc$'}
+
+" Python
+autocmd Filetype python setlocal expandtab tabstop=4 softtabstop=4 shiftwidth=4 autoindent
