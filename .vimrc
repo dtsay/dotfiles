@@ -28,7 +28,6 @@ nnoremap <C-L> <C-W><C-L>
 nmap <C-W>v <C-W><C-V><C-L>
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-:helptags ~/.vim/bundle/ctrlp.vim/doc
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_use_caching = 1
