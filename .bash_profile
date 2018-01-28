@@ -1,7 +1,8 @@
-# ussh
 alias vi=vim
 alias ls='ls -G -a -l -tr'
 # alias ls='ls -G -a -l -tr --color'
+
+export EDITOR=vim
 
 git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'

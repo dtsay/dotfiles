@@ -31,11 +31,14 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 :helptags ~/.vim/bundle/ctrlp.vim/doc
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'c'
 let g:ctrlp_use_caching = 1
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_show_hidden = 1
-let g:ctrlp_regexp = 0
+let g:ctrlp_regexp = 1
 let g:ctrlp_custom_ignore = {'file': '\.pyc$'}
+let g:ctrlp_max_files = 0
+let g:ctrlp_max_depth = 40
 
 " Python
 autocmd Filetype python setlocal expandtab tabstop=4 softtabstop=4 shiftwidth=4 autoindent
