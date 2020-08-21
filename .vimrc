@@ -40,5 +40,5 @@ let g:ctrlp_custom_ignore = {'file': '\.pyc$'}
 let g:ctrlp_max_files = 0
 let g:ctrlp_max_depth = 40
 
-" Python
 autocmd Filetype python setlocal expandtab tabstop=4 softtabstop=4 shiftwidth=4 autoindent
+autocmd Filetype php setlocal expandtab tabstop=2 softtabstop=2 shiftwidth=2 autoindent
