@@ -36,9 +36,10 @@ let g:ctrlp_use_caching = 1
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_regexp = 1
-let g:ctrlp_custom_ignore = {'file': '\.pyc$'}
+let g:ctrlp_custom_ignore = 'node_modules\|pyc|swp'
 let g:ctrlp_max_files = 0
 let g:ctrlp_max_depth = 40
 
 autocmd Filetype python setlocal expandtab tabstop=4 softtabstop=4 shiftwidth=4 autoindent
 autocmd Filetype php setlocal expandtab tabstop=2 softtabstop=2 shiftwidth=2 autoindent
+autocmd Filetype javascript setlocal expandtab tabstop=2 softtabstop=2 shiftwidth=2 autoindent
